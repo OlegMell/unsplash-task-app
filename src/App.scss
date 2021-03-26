@@ -1,0 +1,22 @@
+.app {
+  .app-header {
+    background-color: rgba(0, 0, 0, .7);
+
+    &_title {
+      margin: 0;
+      padding: 15px;
+      color: rgba(255, 255, 255, .8);
+    }
+  }
+
+  .app-main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+
+    @media (max-width: 650px) {
+      padding: 0;
+      width: 90%;
+    }
+  }
+}
